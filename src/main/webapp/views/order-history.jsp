@@ -18,10 +18,6 @@
         </div>
     </c:if>
 
-    <div style="background-color: #f1f5f9; border: 1px solid #cbd5e1; border-radius: 8px; padding: 12px 16px; margin-bottom: 20px; font-size: 0.88rem; color: #334155;">
-        <strong>Lưu ý quan sát trạng thái:</strong> Có thể vào MySQL cập nhật giá trị cột <code>status</code> của bảng <code>Cart</code> (1: Đơn hàng mới, 2: Đã xác nhận, 3: Chuẩn bị hàng, 4: Vận chuyển, 5: Giao hàng, 6: Đã giao, 7: Đơn hàng hủy, 8: Đơn hàng hoàn) rồi tải lại trang để quan sát trạng thái đơn hàng thay đổi tương ứng.
-    </div>
-
     <div class="status-filter-bar">
         <a href="${pageContext.request.contextPath}/order-history" class="filter-tab ${empty currentStatus ? 'active' : ''}">Tất cả</a>
         <a href="${pageContext.request.contextPath}/order-history?status=1" class="filter-tab ${currentStatus == 1 ? 'active' : ''}">Đơn hàng mới</a>
