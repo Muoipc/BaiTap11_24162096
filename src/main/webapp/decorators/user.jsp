@@ -57,9 +57,5 @@
     <sitemesh:write property="body" />
 </main>
 
-<footer class="footer">
-    <p>Họ tên: <strong>Nguyễn Song Hoàng Phúc</strong> | MSSV: <strong>24162096</strong> | Mã đề: <strong>Đề số 05</strong></p>
-</footer>
-
 </body>
 </html>
